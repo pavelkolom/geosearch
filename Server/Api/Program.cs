@@ -26,11 +26,11 @@ builder.Services.AddSwaggerGen(options => {
         Version = "v1",
         Title = "GeoIP API",
         Description = "An ASP.NET Core Web API for searching Geo-IP information",
-        License = new OpenApiLicense
-        {
-            Name = "Specification",
-            Url = new Uri("https://www.metaquotes.net/ru/company/vacancies/tests/dot-net")
-        }
+        //License = new OpenApiLicense
+        //{
+        //    Name = "Specification",
+            //Url = new Uri("https://www.metaquotes.net/ru/company/vacancies/tests/dot-net")
+        //}
     });
 });
 
