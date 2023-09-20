@@ -1,0 +1,15 @@
+<div>Поиск гео-информации по IP</div>
+IP адрес: <input id="search" value="157.6.252.96" placeholder="157.6.252.96" onkeypress="keypress(event)"></input>        
+<button id="srchbtn" class="btn btn-primary" onclick="getLocationByIP()" >Искать</button>
+
+<div id="list">
+<table class="table">
+<thead>
+<tr><th>country</th><th>region</th><th>postal</th><th>city</th>
+    <th>organization</th><th>latitude</th><th>longitude</th>
+    <th>from</th><th>to</th><th>index</th></tr>
+</thead>
+<tbody id="tBody"></tbody>
+</table>
+</div>
+

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Projects\MetaQuotes\Server\Api\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-08-20T10:07:47.6782767Z;True|2023-08-19T22:53:05.0085001+03:00;True|2023-08-19T22:52:48.2353512+03:00;True|2023-08-19T22:42:00.4892901+03:00;True|2023-08-19T21:11:49.0520343+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

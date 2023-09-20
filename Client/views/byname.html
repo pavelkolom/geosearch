@@ -1,0 +1,14 @@
+<div>Поиск списка местоположений по названию города</div>
+Название: <input id="search" value="cit_Ixiluza" placeholder="cit_Ixiluza" onkeypress="keypress(event)"></input>        
+<button id="srchbtn" class="btn btn-primary" onclick="getLocationsByCityname()">Искать</button>
+
+<div id="list">
+<table class="table">
+<thead>
+<tr><th>index</th><th>country</th><th>region</th><th>postal</th><th>city</th>
+    <th>organization</th><th>latitude</th><th>longitude</th></tr>
+</thead>
+<tbody id="tBody"></tbody>
+</table>
+</div>
+

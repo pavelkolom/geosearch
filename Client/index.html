@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	</head>
+	<body>
+		<nav class="navbar navbar-global navbar-fixed-top">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Переключить</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="#">Поиск</a>
+				</div>
+			  </div>
+			</nav>
+		<nav class="navbar-primary">
+		  <a class="btn-expand-collapse"><span id="toggleicon" class="glyphicon glyphicon-menu-left iconspan"></span></a>
+		  <ul class="navbar-primary-menu">
+			<li>
+			  <a href="#byip"><span class="glyphicon glyphicon-map-marker"></span><span class="nav-label">Поиск гео-информации по IP</span></a>
+			  <a href="#byname"><span class="glyphicon glyphicon-list-alt"></span><span class="nav-label">Поиск списка местоположений по названию города</span></a>
+			</li>
+		  </ul>
+		</nav>
+		<div class="main-content" id="app">
+
+		</div>
+		<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+		<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+		<script src="js/collapsible_bar.js"></script>
+		<script src="js/route.js"></script>
+		<script src="js/router.js"></script>
+		<script src="js/app.js"></script>		
+		<script src="js/search.js"></script>		
+	</body>
+</html>
